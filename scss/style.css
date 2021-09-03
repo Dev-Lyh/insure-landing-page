@@ -5,6 +5,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 10;
+  background-color: var(--Very-Light-Gray);
 }
 header > nav > a {
   font-weight: 700;
@@ -17,4 +20,46 @@ header > nav > a:last-child {
   border: 0.2rem solid var(--Very-Dark-Violet);
   color: var(--Very-Dark-Violet);
   padding: 1rem 2rem;
+}
+
+.sect-init {
+  background-color: var(--Dark-Violet);
+  position: relative;
+  height: 78vh;
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+.sect-init > figure:first-child > img:first-child {
+  top: 35rem;
+  left: 0rem;
+  position: absolute;
+  z-index: 9;
+}
+.sect-init > figure:first-child > img:nth-child(2) {
+  top: -11rem;
+  right: 0rem;
+  position: absolute;
+  z-index: 9;
+}
+.sect-init .risquinho {
+  height: 0.1rem;
+  width: 20rem;
+  background-color: white;
+  margin-bottom: 5rem;
+}
+.sect-init > h2 {
+  font-size: 6rem;
+  color: white;
+  width: 45rem;
+  font-weight: normal;
+}
+.sect-init > p {
+  width: 55rem;
+}
+.sect-init > figure:last-child img {
+  width: 50rem;
+  top: 10rem;
+  right: 10rem;
+  position: absolute;
+  z-index: 5;
 }/*# sourceMappingURL=style.css.map */
