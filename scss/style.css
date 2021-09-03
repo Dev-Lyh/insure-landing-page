@@ -6,7 +6,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  z-index: 10;
+  z-index: 999;
   background-color: var(--Very-Light-Gray);
 }
 header > nav > a {
@@ -54,7 +54,20 @@ header > nav > a:last-child {
   font-weight: normal;
 }
 .sect-init > p {
+  color: var(--Very-Light-Gray);
   width: 55rem;
+  margin-bottom: 3rem;
+}
+.sect-init > a {
+  border: 0.2rem solid var(--Very-Light-Gray);
+  padding: 1rem 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--Very-Light-Gray);
+  position: absolute;
+  z-index: 10;
+  background-color: var(--Dark-Violet);
 }
 .sect-init > figure:last-child img {
   width: 50rem;
